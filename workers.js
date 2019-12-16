@@ -7,13 +7,13 @@
  */
 
 // 定义 Github 项目，文章会从这里读取
-const github_base = "kasuganosoras/cloudflare-worker-blog";
+const github_base = "xxzl0130/xuanxuan-blog";
 
 // 站点名称
-const site_name = "CloudFlare Workers Blog";
+const site_name = "轩轩的技术站";
 
 // 站点介绍
-const site_desc = "一个用 CloudFlare Worker 搭建的博客";
+const site_desc = "半个程序员来记录自己折腾的经历";
 
 // 资源文件
 const highlight_css = "https://cn.tql.ink:4443/css/highlight.js/github.css";
@@ -21,7 +21,7 @@ const highlight_main = "https://cn.tql.ink:4443/js/highlight.min.js";
 const highlight_pack = "https://cn.tql.ink:4443/js/highlight.pack.js";
 
 // Copyright
-const copyright = `&copy; 2019 ${site_name} | <a href="https://github.com/kasuganosoras/cloudflare-worker-blog" target="_blank">Github</a>`;
+const copyright = `&copy; 2019 ${site_name} | <a href="https://github.com/xxzl0130/xuanxuan-blog" target="_blank">Github</a>`;
 
 /* 配置到此结束 */
 
