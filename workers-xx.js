@@ -9,22 +9,22 @@ var site_domain		 = "blog.xuanxuan.tech";								// 站点域名
 var site_subtitle	 = "半个程序员来记录自己折腾的经历";							// 站点副标题
 var site_favicon	 = "https://cn.tql.ink:4443/gitea/img/favicon.png";				// 站点 Logo
 
-var static_server = "https://static.xuanxuan.tech/";
+var static_server = "https://static.xuanxuan.tech";
 // 博主信息
 var owner_name = "轩轩醉了";									// 博主名字
 var owner_logo = static_server + "/img/avatar.png"	// 博主头像
 var owner_desc = "工科生，半个程序员，努力磕盐中";					// 博主简介
 
 // 设置站点资源文件地址
-var css_bootstrap	 = static_server + "/css/bootstrap.min.css";	// Boostrap css 文件地址
-var css_hljs_github   = static_server + "/css/highlight.js/github.css";  // Highlight js css 地址
-var js_jquery		 = static_server + "/js/jquery.min.js";		// JQuery 地址
-var js_bootstrap	= static_server + "/js/bootstrap.min.js";	// Bootstrap 地址
-var js_instantclick   = static_server + "/js/instantclick.min.js";	// InstantClick 地址
-var js_showdown	 = static_server + "/js/showdown.min.js";		// Showdown 地址
-var js_showdown_table = static_server + "/js/showdown-table.min.js";	// Showdown table 地址
-var js_highlight	= static_server + "/js/highlight.min.js";	// Highlight 地址
-var js_highlight_pack = static_server + "/js/highlight.pack.js";		// Highlight pack 地址
+var css_bootstrap	 = "https://cn.tql.ink:4443/css/bootstrap.min.css";	// Boostrap css 文件地址
+var css_hljs_github   = "https://cn.tql.ink:4443/css/highlight.js/github.css";  // Highlight js css 地址
+var js_jquery		 = "https://cn.tql.ink:4443/js/jquery.min.js";		// JQuery 地址
+var js_bootstrap	= "https://cn.tql.ink:4443/js/bootstrap.min.js";	// Bootstrap 地址
+var js_instantclick   = "https://cn.tql.ink:4443/js/instantclick.min.js";	// InstantClick 地址
+var js_showdown	 = "https://cn.tql.ink:4443/js/showdown.min.js";		// Showdown 地址
+var js_showdown_table = "https://cn.tql.ink:4443/js/showdown-table.min.js";	// Showdown table 地址
+var js_highlight	= "https://cn.tql.ink:4443/js/highlight.min.js";	// Highlight 地址
+var js_highlight_pack = "https://cn.tql.ink:4443/js/highlight.pack.js";		// Highlight pack 地址
 var bkg_img = static_server + "/img/ndmz.png";
 
 // 这是一些临时变量，无需修改
