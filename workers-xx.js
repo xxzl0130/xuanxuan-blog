@@ -7,24 +7,24 @@ var default_intitle	 = "轩轩的技术站";								// 站点名称（显示在�
 var default_description  = "欢迎访问 轩轩醉了 的博客，这里会记录我做的一些软件、研究。"; 	// 站点简介，有利于 SEO
 var site_domain		 = "blog.xuanxuan.tech";								// 站点域名
 var site_subtitle	 = "半个程序员来记录自己折腾的经历";							// 站点副标题
-var site_favicon	 = "https://cn.tql.ink:4443/gitea/img/favicon.png";				// 站点 Logo
-
 var static_server = "https://static.xuanxuan.tech";
+var site_favicon	 = static_server + "/favicon.ico";				// 站点 Logo
+
 // 博主信息
 var owner_name = "轩轩醉了";									// 博主名字
 var owner_logo = static_server + "/img/avatar.png"	// 博主头像
 var owner_desc = "工科生，半个程序员，努力磕盐中";					// 博主简介
 
 // 设置站点资源文件地址
-var css_bootstrap	 = "https://cn.tql.ink:4443/css/bootstrap.min.css";	// Boostrap css 文件地址
-var css_hljs_github   = "https://cn.tql.ink:4443/css/highlight.js/github.css";  // Highlight js css 地址
-var js_jquery		 = "https://cn.tql.ink:4443/js/jquery.min.js";		// JQuery 地址
-var js_bootstrap	= "https://cn.tql.ink:4443/js/bootstrap.min.js";	// Bootstrap 地址
-var js_instantclick   = "https://cn.tql.ink:4443/js/instantclick.min.js";	// InstantClick 地址
-var js_showdown	 = "https://cn.tql.ink:4443/js/showdown.min.js";		// Showdown 地址
-var js_showdown_table = "https://cn.tql.ink:4443/js/showdown-table.min.js";	// Showdown table 地址
-var js_highlight	= "https://cn.tql.ink:4443/js/highlight.min.js";	// Highlight 地址
-var js_highlight_pack = "https://cn.tql.ink:4443/js/highlight.pack.js";		// Highlight pack 地址
+var css_bootstrap	 = static_server + "/css/bootstrap.min.css";	// Boostrap css 文件地址
+var css_hljs_github   = static_server + "/css/highlight.js/github.css";  // Highlight js css 地址
+var js_jquery		 = static_server + "/js/jquery.min.js";		// JQuery 地址
+var js_bootstrap	= static_server + "/js/bootstrap.min.js";	// Bootstrap 地址
+var js_instantclick   = static_server + "/js/instantclick.min.js";	// InstantClick 地址
+var js_showdown	 = static_server + "/js/showdown.min.js";		// Showdown 地址
+var js_showdown_table = static_server + "/js/showdown-table.min.js";	// Showdown table 地址
+var js_highlight	= static_server + "/js/highlight.min.js";	// Highlight 地址
+var js_highlight_pack = static_server + "/js/highlight.pack.js";		// Highlight pack 地址
 var bkg_img = static_server + "/img/ndmz.png";
 
 // 这是一些临时变量，无需修改
@@ -51,7 +51,7 @@ var header = `<!DOCTYPE HTML>
 		<meta name="msapplication-TileColor" content="#F1F1F1">
 		<link rel="shortcut icon" href="${site_favicon}" />
 		<meta name="description" content="{description}">
-		<link rel="stylesheet" href="${css_bootstrap}" crossorigin="anonymous">
+		<link rel="stylesheet" href="${css_bootstrap}">
 		<link rel="stylesheet" href="${css_hljs_github}">
 		<title>{title}{title_2}</title>
 		<style type="text/css">.pageid{margin-bottom:-26px}code{color:#484848;background-color:#f5f5f5;border-radius:0px;border:1px solid #dadada;}pre>code{color:unset;background-color:unset;border-radius:unset;border:0px;}.post-a {color: #000;text-decoration: none ! important;}.post-box {padding: 12px 20px 12px 20px;border-bottom: 1px solid rgba(0,0,0,0.07);cursor: pointer;border-left: 0px solid rgba(66, 66, 66, 0);transition-duration: 0.3s;}.post-box:hover {transition-duration: 0.3s;border-left: 5px solid rgba(66, 66, 66, 0.15);}.thread h2 {border-bottom: 1px solid rgb(238,238,238);padding-bottom: 10px;}.editor-preview pre, .editor-preview-side pre{padding: 0.5em;}.hljs{background: unset ! important;padding: 0px;}.CodeMirror{height: calc(100% - 320px);min-height: 360px;}.msgid{font-family:Consolas;}.tooltip {word-break: break-all;}h2 a{font-weight: 400;}body{background:url(${bkg_img});font-family:'-apple-system','BlinkMacSystemFont','Segoe UI','Helvetica','Arial','sans-serif','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol' ! important;font-weight:400;background-attachment:fixed;background-size:cover;background-repeat:no-repeat;background-position:center;}h2 a{color: #000;} h2 a:hover{color: #000; text-decoration: none;}.full-width{width: 100%;}.thread img{vertical-align:text-bottom ! important;max-width:100% ! important;margin-top:8px;margin-bottom:8px;}.thread table{display:block;width:100%;overflow:auto;margin-bottom:8px;}.thread table tr{background-color:#fff;border-top:1px solid #c6cbd1;}.thread table tr:nth-child(2n){background-color:#f7f7f7;}.thread table th,.thread table td{padding:10px 12px 0px 12px;border:1px solid #dfe2e5;font-size:14px;}.thread table th {padding-bottom: 10px;background: #f7f7f7;}.thread pre{margin-bottom:16px;}pre{border:none ! important;}blockquote{font-size:15px ! important;}@media screen and(max-width:768px){.copyright{text-align:center;}}</style>
