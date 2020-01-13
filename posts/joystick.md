@@ -1,4 +1,3 @@
-# Windows下的游戏手柄信息读取 | Gamepad | Joystick | C/C++
 Windows下可用的方法主要有MultiMedia API和DirectInput两种，另外也可以使用开源库[SDL](https://www.libsdl.org/)。 
 
 ## MultiMedia API
